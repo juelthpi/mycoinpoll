@@ -1,0 +1,30 @@
+ 
+@media screen and (min-width:992px) {
+  .navbar-expand-lg .navbar-nav {
+    gap:30px;
+  }
+}
+@media screen and (max-width: 1440px) {
+   
+  
+}
+@media screen and (max-width: 1199px) {
+   
+}
+@media screen and (max-width: 991px) {
+   
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+
+  a.navbar-brand img {
+    max-width: 100px;
+  }
+  
+ 
+}
+@media screen and (max-width: 767px) {
+   
+}
