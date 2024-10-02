@@ -1,30 +1,334 @@
  
-@media screen and (min-width:992px) {
-  .navbar-expand-lg .navbar-nav {
+@media screen and (min-width:1280px) {
+  .navbar-nav {
     gap:30px;
   }
-}
-@media screen and (max-width: 1440px) {
-   
+ 
+  .token-card-middle-area {
+    margin-right: 96px;
+  }
   
 }
-@media screen and (max-width: 1199px) {
-   
+@media screen and (max-width: 1440px) {
+  .frequently-asked-question-section,.multi-chain-power-section{
+    margin-top: 0;
+  }
+  .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
+    font-size: 50px;
+    line-height: 60px;
+    text-shadow: 2px 0px 0px #1CD691, 11px 5px 10px rgba(28, 214, 145, 0.24);
+  }
+  .footer-description {
+    margin-right: 30px;
+  }
+  .footer-thumnail{
+    display: none;
+  }
+  .multi-chain-power-section::after {
+    display: none;
+  }
+  .multi-chain-power-heading p {
+    margin-top: 20px;
+  }
+  .token-card-middle-area {
+    margin-right: 40px;
+  }
+ 
+  .ido-card-header{
+    margin-top: 38px;
+  }
+  .slick-arrow {
+    height: 50px;
+    width: 50px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .cb-slideshow div,.cb-slideshow{
+    width: 400px !important;
+  }
+  .primary-btn {
+    min-width: 300px;
+    font-size: 18px;
+    height: 75px;
+  }
+  .token-view-more-btn .primary-btn {
+    line-height: 78px;
+  }
+  .hero-container {
+    padding-top: 230px;
+    padding-bottom: 0;
+    background-size: cover;
+  }
+  .coin-logo-area ul li {
+    width: 26%;
+  }
+  .coin-logo-section {
+    margin-top: -125px;
+  }
 }
-@media screen and (max-width: 991px) {
-   
+@media screen and (max-width:1280px) {
+   .token-card-main-area{
+    flex-wrap: wrap;
+   }
+  .token-card-right {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+  }
+  .token-card-right .social-menu ul,.countdown-area ul {
+    justify-content: center;
+  }
+  .token-card-main-area {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .frequently-answere .accordion-button {
+    padding: 6px 15px !important;
+    padding: 0;
+    font-size: 20px;
+  }
+  .frequently-answere .accordion-body p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .header-area {
+    padding-top: 120px;
+  }
+  .button-wrapper {
+    display: inline-block !important;
+    margin-top: 20px;
+    margin-left: -12px;
+    margin-bottom: 30px;
+  }
+  button.navbar-toggler.icon:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+  }
+  #outside-click{
+    padding-top: 20px;
+  }
+  .menu-bg {
+    background-image: none;
+    backdrop-filter: 17px;
+    background-color: rgba(116, 117, 115, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(22px);
+    border-radius: 10px;
+  }
+  .running-token-section {
+    background-size: contain;
+  }
+  .coinpool-hero-rights {
+    display: none;
+  }
+  .hero-container {
+    padding-bottom: 275px;
+  }
+  .subscribe-email input {
+    padding: 14px 28px;
+  }
+  .multi-chain-power-section::before{
+    background-size: cover;
+  }
   header {
     position: fixed;
     width: 100%;
     z-index: 999;
   }
-
-  a.navbar-brand img {
-    max-width: 100px;
+}
+@media screen and (max-width: 991px) {
+  .frequently-thumnail {
+    padding-right:0px;
+  }
+  .frequently-asked-text-area {
+    margin-top: 60px;
+  }
+  .subscribe-form{
+    display: flex;
+    justify-content: center;
+  }
+  .subscribe-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footer-area{
+    flex-wrap: wrap;
+    justify-content: center !important;
+     
+  }
+  .footer-description {
+    margin-right:0px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .footer-description .social-menu ul{
+    justify-content: center;
+  }
+  /* .ido-card-list-item img {
+    max-width: 76px;
+    width: 100%;
+  } */
+  .coin-logo-section {
+    margin-top: -150px;
+  }
+  .coin-logo-area ul li {
+    width: 35%;
+  }
+  .coin-logo-area ul li img{
+    width: 60%;
+  }
+  .coin-logo-area ul {
+    row-gap: 15px;
   }
   
  
+  .token-card-thumnails,.token-card-middle-area {
+    margin-right: 0;
+    width: 100%;
+  }
+  .token-card-thumnails{
+    margin-bottom: 60px;
+  }
+  .token-card-thumnail-text{
+    flex-wrap: wrap;
+  }
+  .token-card-main-area {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .token-card-middle h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .token-card-thumnails img{
+    width: 100%;
+  }
+  .header-area {
+    padding-top: 110px;
+  }
+  .frequently-answere .accordion-item {
+    margin-bottom: 10px;
+  }
+ 
 }
 @media screen and (max-width: 767px) {
-   
+  .header-area .container-fluid {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .ido-card-list-item {
+    flex-wrap: wrap;
+  }
+  .ido-card-list-item img{
+    display:none;
+  }
+  .ido-active-offer {
+    gap:18px;
+    flex-wrap: wrap;
+  }
+  .ido-card-header{
+    flex-wrap: wrap;
+  }
+  .ido-card-logo{
+    margin-bottom:20px;
+  }
+  .ido-single-card {
+    padding: 15px;
+  }
+   .hero-area-text ul{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   }
+   .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
+    font-size:35px;
+    line-height:55px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .hero-area-text {
+    text-align: center;
+  }
+  .primary-btn {
+    min-width: 280px;
+    font-size: 16px;
+    height: 65px;
+  }
+  .coin-logo-section {
+    margin-top: -188px;
+  }
+  .coin-logo-area ul li {
+    width: 38%;
+  }
+  .coin-logo-area ul {
+    gap: 15px;
+  }
+  .running-token-view-box{
+    justify-content: center;
+  }
+  .token-view-box-text,.token-view-btn {
+    width: 100%;
+  }
+  .token-view-btn{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .btn3 {
+    padding: 12px 25px;
+  }
+  .ido-card-header {
+    margin-top: 20px;
+  }
+  .running-token-view-box,.token-card-main-area,.ido-single-card,.subscribe-bg,.frequently-answere .accordion-item{
+    background-image: none;
+    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    border-radius: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .subscribe-bg {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .slider-arrows {
+    gap: 15px;
+    margin-top: 30px;
+  }
+  .token-card-main-area {
+    padding-bottom: 50px;
+  }
+  .frequently-circle{
+    display: none;
+  }
+  .token-card-heading{
+    flex-wrap: wrap;
+  }
+  .footer-widgets {
+    width: 47%;
+  }
+  .footer-widgets-area {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .contactinfo{
+    width: 100%;
+    text-align: center;
+  }
+  .footer-bottom-copyright{
+    justify-content: center !important;
+  }
+  .terms-conditions ul li a {
+    font-size: 15px;
+  }
+  .copyright-text p{
+    text-align: center;
+  }
 }

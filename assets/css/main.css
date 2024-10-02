@@ -156,9 +156,10 @@ a.nav-link.dropdown-toggle i{
 	padding-top: 184px;
 	padding-bottom: 140px;
 }
-.hero-area-text{
-  max-width: 912px;
-  width: 100%;
+.hero-area-text {
+	max-width: 912px;
+	width: 100%;
+	padding-top: 30px;
 }
 .hero-area-text h3{
   font-size: 85px;
@@ -330,6 +331,7 @@ a.nav-link.dropdown-toggle i{
 	height: 1000px;
 	bottom: -20%;
 	right: 0;
+  opacity: 0.8;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
@@ -337,15 +339,15 @@ a.nav-link.dropdown-toggle i{
 	position: relative;
 	z-index: 5;
 }
-.token-circle2{
-  position: absolute;
-  width: 634px;
-  left: 0;
-  top: 50%;
-  height: 634px;
-  background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
-  opacity: 0.2;
-  filter: blur(250px);
+.token-circle2 {
+	position: absolute;
+	max-width: 634px;
+	left: 0;
+	top: 50%;
+	height: 634px;
+	background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
+	opacity: 0.08;
+	filter: blur(250px);
 }
 /* .token-circle3 {
 	position: absolute;
@@ -471,9 +473,7 @@ a.nav-link.dropdown-toggle i{
   transform:translateY(-10px);
   border-radius:0px 40px 0px 40px;
 }
-.token-card-middle-area {
-	margin-right: 96px;
-}
+ 
 .token-card-thumnails{
   margin-right: 45px;
   z-index: 2;
@@ -713,6 +713,20 @@ color:#fff;
   opacity: 0.5;
   z-index: -1;
 }
+.multi-chain-power-section::after {
+	content: "";
+	position: absolute;
+	top: -33px;
+	left: 0;
+	margin: 0 auto;
+	width: 52%;
+	height: 20%;
+	opacity: 0.8;
+	z-index: -1;
+	text-align: center;
+	right: 0;
+	background: linear-gradient(135deg, #040C16 0%, #030B15 100%);
+}
 @keyframes zoomInOut {
   0% {
       transform: scale(1); /* Initial size */
@@ -744,7 +758,7 @@ color:#fff;
 	width: 287px;
 	height: 413px;
 	left: 0;
-	top: 9%;
+	top: -6%;
 	background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
 	opacity: 0.13;
 	filter: blur(271px);
@@ -907,9 +921,8 @@ text-fill-color: transparent;
   padding-bottom: 151px;
   background-position: center center;
 
-}
-.subscribe-section{
-  padding-top: 150px;
+} .navbar-nav {
+	gap: 8px;
 }
 .subscribe-email{
   background-image: url('../images/bg/email-bg.png');
@@ -954,8 +967,15 @@ text-fill-color: transparent;
   transition: 0.5s;
   background-color:#111A23;
 }
-.btn3:hover{
-  background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
+.token-view-btn{
+  width:25%;
+  text-align: right;
+}
+.token-view-box-text{
+  width:75%;
+}
+.btn3:hover,.icon  {
+	background: linear-gradient(135deg, #18F1FF 0%, #23DB51 100%);
 }
 .border-indexcing{
   position: relative;
@@ -997,7 +1017,7 @@ text-fill-color: transparent;
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 50%;
+	top:46%;
 	transform: translateY(-50%);
 	background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
 	opacity: 0.08;
