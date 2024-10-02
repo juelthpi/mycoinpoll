@@ -11,6 +11,11 @@ jQuery(document).ready(function ($) {
     
      
     });
+    $('.flip-custom').slideShowAd({
+      interval: '3000',
+      slideShowType: 'flipY',
+      targetBlank: true
+    });
 
   // menu bg add
     $(window).on('scroll', function() {

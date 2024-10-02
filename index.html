@@ -48,6 +48,7 @@
                      >
                    <span class="navbar-toggler-icon"></span>
                   </button>
+                  
                   <div class="collapse navbar-collapse" id="navbarText">
                      <ul class="navbar-nav mx-auto" id="outside-click">
                         <li class="nav-item">
@@ -56,9 +57,20 @@
                         <li class="nav-item">
                            <a class="nav-link" href="#">Pool</a>
                         </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">Blog</a>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="true">Blog<i class="fa-solid fa-angle-down"></i></a>
+                           <div class="dropdown-menu" role="menu" data-bs-popper="static">
+                              <ul>
+                                 <li><a href="#">Item 1</a></li>
+                                 <li><a href="#">Item 1</a></li>
+                                 <li><a href="#">Item 1</a></li>
+                                 <li><a href="#">Item 1</a></li>
+                              </ul>
+                           </div>
                         </li>
+                        <!-- <li class="nav-item">
+                           <a class="nav-link" href="#">Blog</a>
+                        </li> -->
                         <li class="nav-item">
                            <a class="nav-link" href="#">Level</a>
                         </li>
@@ -84,14 +96,26 @@
       <section class="hero-section">
          <div class="hero-container">
             <div class="container">
-               <div class="hero-area-text">
-                  <h3>Blockchain’s Ultimate Launchpad for Innovation</h3>
-                  <p>Get early access to cutting-edge crypto projects. Stake and participate in IDOs across multiple blockchains with guaranteed security.</p>
-                  <ul class="d-flex align-items-center">
-                     <li><a href="#" class="btn1 primary-btn">Apply to Lunch IDO <span class="icon-rotate"><i class="fas fa-arrow-right"></i></span></a></li>
-                     <li><a href="#" class="btn2 primary-btn">Apply to Lunch IDO</a></li>
-                  </ul>
+              <div class="row">
+               <div class="col-md-12">
+                  <div class="hero-section-outter d-flex justify-content-between">
+                     <div class="hero-area-text">
+                        <h3>Blockchain’s Ultimate Launchpad for Innovation</h3>
+                        <p>Get early access to cutting-edge crypto projects. Stake and participate in IDOs across multiple blockchains with guaranteed security.</p>
+                        <ul class="d-flex align-items-center">
+                           <li><a href="#" class="btn1 primary-btn">Apply to Lunch IDO <span class="icon-rotate"><i class="fas fa-arrow-right"></i></span></a></li>
+                           <li><a href="#" class="btn2 primary-btn">Apply to Lunch IDO</a></li>
+                        </ul>
+                     </div>
+                     <div class="coinpool-hero-rights">
+                        <div class="flip-custom">
+                          <a href="#"> <img src="assets/images/bg/bitcoin1.png" alt=""></a>
+                          <a href="#"> <img src="assets/images/bg/bitcoin2.png" alt=""></a>
+                        </div>
+                     </div>
+                  </div>
                </div>
+              </div>
             </div>
          </div>
       </section>
@@ -312,7 +336,7 @@
          <div class="token-circle2"></div>
          <div class="token-circle3"></div>
       </section>
-      <section class="upcoming-ido-section pt130">
+      <section class="upcoming-ido-section pt120">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -668,6 +692,7 @@
          </div>
       </section>
       <section class="multi-chain-power-section ptb120">
+         <div class="chain-circle2"></div>
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -747,8 +772,11 @@
                </div>
             </div>
          </div>
+         <div class="chain-circle"></div>
       </section>
-      <section class="frequently-asked-question-section pt120">
+      <section class="frequently-asked-question-section pt120 position-relative">
+         <div class="frequently-circle"></div>
+         <div class="frequently-circle2"></div>
          <div class="container">
             <div class="row">
                <div class="col-lg-6">
@@ -856,7 +884,7 @@
                <div class="col-md-12">
                   <div class="footer-area d-flex">
                      <div class="footer-description">
-                        <img src="assets/images/logo.png" alt="logo">
+                        <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
                         <p class="mt40">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                         <div class="social-menu">
                            <span>Follow us</span>
@@ -923,15 +951,10 @@
          </div>
       </footer>
       
-
-
-
-
-
-
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script src="assets/js/jquery.slideshowad.js"></script>
       <script src="assets/js/main.js"></script>
       <script src="assets/js/core.js"></script>
    </body>
