@@ -32,13 +32,13 @@ jQuery(document).ready(function ($) {
     });
 
   // menu bg add
-  //   $(window).on('scroll', function() {
-  //     if ($(window).scrollTop() > 300) {
-  //         $('header').addClass('menu-bg');
-  //     } else {
-  //         $('header').removeClass('menu-bg');
-  //     }
-  // });
+    $(window).on('scroll', function() {
+      if ($(window).scrollTop() > 300) {
+          $('header').addClass('menu-bg-fixed');
+      } else {
+          $('header').removeClass('menu-bg-fixed');
+      }
+  });
   
 
 })

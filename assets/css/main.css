@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .btn2 {
 	background-image: url('../images/bg/btn2.png');
+  height: 98px;
 }
 .primary-btn:hover{
   /* box-shadow: rgba(187, 187, 187, 0.35) 0px 5px 15px; */
@@ -70,6 +71,12 @@ h1,h2,h3,h4,h5,h6{
   background-size: 100% 100%;
   background-position:center center;
   background-repeat: no-repeat;
+}
+.menu-bg-fixed{
+  position: fixed;
+  top: -70px;
+  width: 100%;
+  z-index: 99999;
 }
 .header-cover-area {
 	background: #040C16;
@@ -461,15 +468,15 @@ a.nav-link.dropdown-toggle i{
   transition: 0.5s;
   cursor: pointer;
 }
-.token-card-main-area:hover,.frequently-thumnail img:hover,.subscribe-bg:hover{
+/* .token-card-main-area:hover,.frequently-thumnail img:hover,.subscribe-bg:hover{
   box-shadow: rgba(105, 103, 103, 0.35) 0px 5px 25px;
-}
+} */
 .ido-single-card:hover{
   background-color: #061422;
   border-radius:40px 0px 40px 0px;
 }
 .multi-chain-card:hover{
-  box-shadow: rgba(105, 103, 103, 0.35) 0px 5px 25px;
+  /* box-shadow: rgba(105, 103, 103, 0.35) 0px 5px 25px; */
   transform:translateY(-10px);
   border-radius:0px 40px 0px 40px;
 }
