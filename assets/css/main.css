@@ -153,7 +153,7 @@ a.nav-link.dropdown-toggle i{
 	padding-right: 25px;
 }
 .hero-container {
-	max-width: 1480px;
+	max-width:1550px;
 	width: 100%;
 	margin: 0 auto;
 	background-image: url('../images/bg/hero-bg2.png');
@@ -1282,3 +1282,14 @@ text-fill-color: transparent;
   z-index: 2;
 }
 /* End Coin details page css */
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
          
 .card2 {
@@ -25,6 +26,9 @@
   z-index: -1;
   border-radius: 10px;
 } */
+ .bgs{
+  background-color: black;
+ }
 .card2::after {
   content: '';
   position: absolute;
@@ -43,8 +47,34 @@
     
     clip-path: polygon( 22px 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%, 0 22px );
  }
- 
- 
+ .border-gradient,.border-gradient-view,.border-gradient-slider {
+  position: relative;
+	border: 1px solid transparent;
+  background-clip: padding-box;
+}
+.border-gradient::after,.border-gradient-view::after,.border-gradient-slider:after{
+  content: '';
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  z-index: -1;
+  border-radius: 40px;
+}
+.border-gradient::after{
+  background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
+}
+.border-gradient-view:after{
+  background: linear-gradient(270deg, #2682EE 0%, #1CD691 100%);
+}
+.breadcome a{
+  background-color: white;
+  padding: 20px 60px;
+  background-color: #2682EE;
+  display: inline-block;
+  clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 99%, 27% 50%);
+}
     </style>
 </head>
 <body>
@@ -56,6 +86,10 @@
 
     <div class="card2">
         jeule
+        </div>
+
+        <div class="breadcome" style="margin-left: 50px;margin-top:50px">
+          <a href="#" class="">hello bubt</a>
         </div>
 </body>
 </html>
