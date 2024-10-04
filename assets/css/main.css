@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .menu-bg-fixed{
   position: fixed;
-  top: -70px;
+  top: -80px;
   width: 100%;
   z-index: 99999;
 }
@@ -309,13 +309,13 @@ a.nav-link.dropdown-toggle i{
 }
 @keyframes moveTopToBottom {
   0% {
-      top: 20%; /* Initial position */
+      top: 62%; /* Initial position */
   }
   50% {
-      top: 25%; /* Move downward */
+      top: 75%; /* Move downward */
   }
   100% {
-      top: 20%; /* Return to the initial position */
+      top: 62%; /* Return to the initial position */
   }
 }
 
@@ -419,7 +419,7 @@ a.nav-link.dropdown-toggle i{
 .countdown-area ul{
   gap: 5px;
 }
-.countdown-area{
+.token-card-right .countdown-area{
   margin: 28px 0;
 }
 .countdown-area ul li:nth-child(odd){
@@ -485,6 +485,7 @@ a.nav-link.dropdown-toggle i{
   margin-right: 45px;
   z-index: 2;
 }
+
 .ido-card-slider{
   gap: 30px !important;
 }
@@ -686,7 +687,7 @@ color:#fff;
   line-height: 24px;
 }
  
-.multi-chain-card{
+.multi-chain-card,.ecm-right-box{
   padding: 30px;
   transition: 0.5s;
   cursor: pointer;
@@ -695,6 +696,12 @@ color:#fff;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.ecm-right-box{
+  background-image: url('../images/bg/ecm-bg.png');
+  margin-left:30px;
+  padding: 40px;
+  
 }
 .multi-chain-card-logo img{
   width: 90px;
@@ -1051,10 +1058,202 @@ text-fill-color: transparent;
 	width: 320px;
 	height: 775px;
 	right: 0%;
-	top: 55%;
+	top:62%;
 	background: url('../images/bg/shap5.png');
 	background-repeat: no-repeat;
-	opacity: 0.8;
+	opacity:1;
 	z-index: -2;
-  animation: moveTopToBottom 4s ease-in-out infinite;
+  animation: moveTopToBottom 8s ease-in-out infinite;
 }
+.ecm-address h5{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color:#2682EE;
+  margin-bottom: 16px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.line-divider{
+  height: 10px;
+  background-color:#fff;
+  border-radius: 10px;
+}
+.line-divider2{
+  background-color:#FFFFFF1A;
+  height: 3px;
+}
+.ecm-right-header ul li{
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+
+  color:#FFFFFFCC;
+  line-height: 36px;
+}
+.ecm-form .subscribe-email img{
+  padding-left: 30px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.ecm-form h4{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+  color:#fff;
+}
+.g30{
+  gap: 30px;
+}
+.why-choose-card{
+  background-image: url('../images/bg/choose-card-bg.png');
+  background-size: 100% 100%;
+  padding: 40px 30px;
+  height: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.why-choose-card img{
+  max-width: 90px;
+  transition: 0.5s;
+  width: 100%;
+  
+}
+.common-card:hover img{
+  transform: scale(1.2);
+}
+.chain-power-circle2{
+  left: inherit;
+  right: 0;
+}
+.common-card h4{
+  font-size:26px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color:#fff;
+  line-height: 45px;
+  margin-top: 20px;
+}
+.common-card p{
+  line-height: 24px;
+  font-size: 16px;
+}
+
+
+/* Start Coin details page css */
+.custom-container{
+  max-width: 1800px;
+  width: 100%;
+  margin:auto;
+}
+.coin-details-hero-border{
+  border:4px solid transparent;
+  background: #080E17;
+  background-clip: padding-box;
+  border-radius:30px;
+}
+.coin-details-hero-border::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(302.95deg, #FFFFFF -6.79%, rgba(255, 255, 255, 0) 100%), 
+              linear-gradient(122.95deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 106.79%);
+  z-index: -1;
+  border-radius:30px;
+}
+
+.conin-details-hero-bg{
+  margin-top: 60px;
+  padding-top: 24px;
+}
+.clip-path{
+  clip-path: polygon( 26px 0, 100% 0, 100% calc(100% - 26px), calc(100% - 26px) 100%, 0 100%, 0 26px );
+}
+.box-bg{
+  background-image: url('../images/bg/box-bg.png');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 45px;
+  padding-bottom: 38px;
+  padding-left: 23px;
+  padding-right:53px;
+}
+.token-view-shear a{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-decoration: underline;
+  color:#fff;
+}
+.token-shear-counter-box{
+  margin-top: 26px;
+  padding-bottom: 60px;
+  border-bottom: 3px solid #FFFFFF1A;
+
+}
+.token-details-card-thumnails.box-bg {
+	margin-right: 25px;
+}
+.token-view-shear{
+  padding-right:28px;
+  margin-right: 28px;
+  border-right: 1.5px solid #FFFFFF1A
+}
+.token-details-terget-area ul{
+  gap: 65px;
+}
+.token-details-terget-area ul li span{
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  line-height: 30px;
+  display: inline-block;
+  color:#FFFFFFCC;
+}
+.token-details-terget-area{
+  padding-bottom: 16px;
+  border-bottom: 8px solid #FFFFFF1A;
+}
+.btn4{
+  flex-direction: column;
+  background-image: url('/assets/images/bg/btn4.png');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.token-details-btn-group .btn4{
+  height: 67px;
+  width: 100%;
+}
+.token-details-btn-group ul{
+  gap: 30px;
+}
+.btn4 p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.6px;
+}
+.btn4 h4{
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  line-height:25px;
+}
+.frequently-circle {
+	width: 700px;
+	height:650px;
+	top:45%;
+	opacity: 0.09;
+	z-index:0;
+}
+.token-details-right-box{
+  position: relative;
+  z-index: 2;
+}
+/* End Coin details page css */

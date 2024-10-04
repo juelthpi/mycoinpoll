@@ -11,16 +11,10 @@
 	border: 5px solid transparent;
   background: #f2f2f2;
   background-clip: padding-box;
-  
   border-radius: 10px;
-	
-	width: 8rem;
-	padding: 5rem 2rem;
-	margin: 5rem auto;
-  font-size: 100px;
 }
 
-.card2::after {
+/* .card2::after {
   content: '';
   position: absolute;
   top: -5px;
@@ -30,10 +24,36 @@
   background: linear-gradient(to bottom right, #22c1c3, #fdbb2d);
   z-index: -1;
   border-radius: 10px;
+} */
+.card2::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(302.95deg, #FFFFFF -6.79%, rgba(255, 255, 255, 0) 100%), 
+              linear-gradient(122.95deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 106.79%);
+  z-index: -1;
+  border-radius: 10px;
 }
+
+.button {
+
+    
+    clip-path: polygon( 22px 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%, 0 22px );
+ }
+ 
+ 
     </style>
 </head>
 <body>
+  <a href="#" >
+   <img src="image.png" alt="" class="button mt-5">
+ </a>
+
+
+
     <div class="card2">
         jeule
         </div>

@@ -10,7 +10,8 @@
   
 }
 @media screen and (max-width: 1440px) {
-  .frequently-asked-question-section,.multi-chain-power-section{
+  
+ .multi-chain-power-section{
     margin-top: 0;
   }
   .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
@@ -69,8 +70,18 @@
   .coin-logo-section {
     margin-top: -125px;
   }
+  .token-details-btn-group .btn4.primary-btn {
+    min-width:225px
+   }
 }
 @media screen and (max-width:1280px) {
+  .ecm-left-side ul{
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .ecm-left-side {
+    text-align: center;
+  }
    .token-card-main-area{
     flex-wrap: wrap;
    }
@@ -96,8 +107,11 @@
   }
 }
 @media screen and (max-width: 1199px) {
+  .ecm-right-box{
+    margin-left: 0;
+  }
   .menu-bg-fixed {
-    top: -115px;
+    top: -120px;
   }
   .header-area {
     padding-top: 120px;
@@ -142,8 +156,14 @@
     width: 100%;
     z-index: 999;
   }
+  .token-details-right-box{
+    margin-top: 60px;
+  }
 }
 @media screen and (max-width: 991px) {
+  .why-choose-section{
+    padding-bottom: 0;
+  }
   .frequently-thumnail {
     padding-right:0px;
   }
@@ -366,6 +386,12 @@
     justify-content: center !important;
     text-align: center;
     gap: 15px;
+  }
+  .ecm-address p{
+    font-size: 12px;
+  }
+  .token-view-shear{
+    margin-bottom: 40px;
   }
 }
  
