@@ -14,11 +14,11 @@
  .multi-chain-power-section{
     margin-top: 0;
   }
-  .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
+  /* .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
     font-size: 50px;
     line-height: 60px;
     text-shadow: 2px 0px 0px #1CD691, 11px 5px 10px rgba(28, 214, 145, 0.24);
-  }
+  } */
   .footer-description {
     margin-right: 30px;
   }
@@ -111,7 +111,7 @@
     margin-left: 0;
   }
   .menu-bg-fixed {
-    top: -120px;
+    top: -108px;
   }
   .header-area {
     padding-top: 120px;
@@ -240,6 +240,9 @@
   }
   .ido-card-body .social-menu ul{
     justify-content: center !important;
+  }
+  .section-heading h3,.token-card-heading h3 {
+    font-size: 45px;
   }
  
 }
