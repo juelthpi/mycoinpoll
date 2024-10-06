@@ -75,6 +75,17 @@
   display: inline-block;
   clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 99%, 27% 50%);
 }
+body {
+  margin: 20px auto;
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: center;
+}
+
+#pie-chart {
+  margin: 0 auto;
+  height: 450px;
+}
     </style>
 </head>
 <body>
@@ -91,5 +102,25 @@
         <div class="breadcome" style="margin-left: 50px;margin-top:50px">
           <a href="#" class="">hello bubt</a>
         </div>
+
+
+        <div id="pie-chart"></div>
+
+        <script>var pieDiv = document.getElementById("pie-chart");
+
+          var traceA = {
+            type: "pie",
+            values: [8149300, 4916438, 4776980, 3100950, 2083210],
+            labels: ['Russia', 'Canada', 'Brazil', 'United States', 'China']
+          };
+          
+          var data = [traceA];
+          
+          var layout = {
+            title: "Area Under Forest for Different Countries"
+          };
+          
+          Plotly.plot(pieDiv, data, layout);
+          </script>
 </body>
 </html>
