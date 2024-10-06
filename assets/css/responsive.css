@@ -116,6 +116,16 @@
   .frequently-answere .accordion-body p {
     font-size: 15px;
   }
+  .upgrade-box-left{text-align: center;}
+  .upgrade-box{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .upgrade-box-left .common-heading-2 p{
+    margin: auto;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 1199px) {
   .ecm-right-box{
@@ -194,6 +204,19 @@
   .roadmap-item.justify-content-end{
     justify-content: center !important;
     margin-bottom: 80px !important;
+  }
+  .token-details-card-thumnails.box-bg {
+    margin-right:0px;
+  }
+  .section-heading h3 {
+    font-size: 45px;
+  }
+  .chart-center-box {
+    height: 165px;
+    width: 165px;
+  }
+  .token-rollout-right-side {
+    margin-left:50px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -274,7 +297,22 @@
     flex-wrap: wrap;
     column-gap: 0;
   }
- 
+  .token-view-shear{
+    border-right:none;
+  }
+  .token-rollout-section {
+    padding-top: 80px;
+  }
+  .token-rollout-right-side {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .left-text, .right-text {
+    font-size: 15px;
+  }
+  .line {
+    height: 1px;
+  }
 }
 @media screen and (max-width: 767px) {
   .header-area .container-fluid {
@@ -439,7 +477,7 @@
     padding-right: 0;
     padding-bottom: 260px;
   }
-  .circle-effect-center,.footer-main-section::after {
+  .circle-effect-center,.center-effect1::after {
     width: 100%;
   }
   .ido-card-list-item img {
@@ -461,6 +499,74 @@
   .circle-effect3{
     z-index: -2;
   }
+  .token-details-terget-area ul {
+    gap: 16px;
+    margin-top: 30px;
+  }
+  .token-details-btn-group ul{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .button-list ul{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .full-w-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+  .mobile-box-bg{
+    background-image: none;
+    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    border-radius: 15px;
+  }
+  .g30{
+    gap: 15px;
+  }
+  .ido-card-logo img{
+    width: 80px;
+    height: 80px;
+  }
+  .running-token-view-box{
+    padding: 40px 28px;
+  }
+  .full-w-card .common-heading-2 p{
+    width: 100%;
+  }
+  .project-introduction.mt40{
+    margin-top: 20px;
+  }
+  .token-roll-label ul li{
+    font-size: 14px;
+  }
+  .token-roll-controls .progress-bar span, .ico-progress .progress-bar span {
+    font-size: 15px;
+  }
+  .roadmap-start{
+    min-height: 240px;
+    min-width: 240px;
+  }
+  .roadmap-item-year {
+    min-height: 180px;
+    min-width: 180px;
+    max-height: 212px;}
+    .line{
+      display: none;
+    }
+    .token-sell-price-item {
+      flex-wrap: wrap;
+      justify-content: center !important;
+      margin-bottom: 10px;
+    }
+    .token-sell-price{
+      margin-bottom: 10px;
+    }
+    .row.mt80.gy-4{
+      margin-top: 40px;
+    }
+  
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
@@ -475,4 +581,8 @@
     margin: auto;
     margin-top: 20px;
   }
+  .token-rollout-right-side {
+    display: none !important;
+  }
+ 
 }
