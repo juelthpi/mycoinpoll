@@ -261,6 +261,19 @@ a.nav-link.dropdown-toggle i{
   text-transform: uppercase;
   border-radius:24px;
 }
+.token-btn i{
+  font-size: 20px;
+  padding-right: 8px;
+  color:#fff;
+}
+.token-ended,.token-ended i{
+  color:#FFFFFF99;
+  background: #585858;
+  text-transform: capitalize;
+}
+.token-ongoin{
+  text-transform: capitalize;
+}
 .token-card-thumnails ul{
   gap:10px;
   position: absolute;
@@ -280,7 +293,7 @@ a.nav-link.dropdown-toggle i{
   line-height: 25px;
 }
 .token-card-middle h4{
-  font-size:35px;
+  font-size:32px;
   line-height: 50px;
   color:#fff;
   margin-bottom: 12px;
@@ -1079,7 +1092,7 @@ text-fill-color: transparent;
   left: -1px;
   right: -1px;
   z-index: -1;
-  border-radius: 40px;
+  border-radius:32px;
 }
 .border-gradient::after{
   background: linear-gradient(135deg, #18F1FF 0%, #3818FF 100%);
@@ -1285,7 +1298,7 @@ text-fill-color: transparent;
   padding-top: 45px;
   padding-bottom: 38px;
   padding-left: 23px;
-  padding-right:53px;
+  padding-right:48px;
 }
 .token-view-shear a{
   font-weight: 700;
@@ -1325,7 +1338,7 @@ text-fill-color: transparent;
 }
 .btn4{
   flex-direction: column;
-  background-image: url('/assets/images/bg/btn4.png');
+  background-image: url('../images/bg/btn4.png');
   background-size:100% 100%;
   background-repeat: no-repeat;
 }
@@ -1696,4 +1709,8 @@ text-fill-color: transparent;
   left: 0;
   top:38%;
   animation: card-listed 15s ease-in-out 
+}
+.earn-card-btn-group ul li a.btn4.primary-btn{
+  min-width:375px;
+  height: 55px;
 }

@@ -566,7 +566,10 @@
     .row.mt80.gy-4{
       margin-top: 40px;
     }
-  
+    .earn-card-btn-group ul{
+      flex-wrap: wrap;
+      gap: 20px;
+    }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
@@ -583,6 +586,9 @@
   }
   .token-rollout-right-side {
     display: none !important;
+  }
+  .earn-card-btn-group ul li a.btn4.primary-btn {
+    min-width: 302px;
   }
  
 }
