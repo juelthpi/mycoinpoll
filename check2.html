@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <style>
+         
+body{
+    background-color:#0C131D;
+}
+ 
+.form-group .checkBox {
+  display: none;
+}
+
+.form-group .checkBox + label {
+  z-index: 3;
+  cursor: pointer;
+  padding-left: 33px;
+  display: block;
+  position: relative;
+  height: 20px;
+  line-height: 1.7em;
+  color:#fff;
+}
+.form-group .checkBox + label::before {
+  z-index: 2;
+  top: 0px;
+  left: 2px;
+  width: 25px;
+  height: 25px;
+  background:  linear-gradient(90deg, rgba(39, 123, 245, 0.3) 0%, rgba(28, 214, 145, 0.3) 100.01%);
+  display: block;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+}
+.form-group .checkBox:checked + label::before {
+  
+    background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
+  
+}
+.form-group .checkBox:checked + label::after {
+  background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
+}
+.form-group .checkBox + label span {
+    display: none;
+}
+.form-group .checkBox:checked + label span {
+    display: block;
+  position: absolute;
+  left: 7px;
+  z-index: 9;
+  top: 0px;
+  color: white;
+}
+.form-group .checkBox + label::after {
+  z-index: 2;
+  top: 2px;
+  left: 4px;
+  width: 21px;
+  height: 21px;
+  background: #111822;
+  display: block;
+  content: "";
+  position: absolute;
+  border-radius: 3px;
+}
+.item{
+    display: flex;
+    gap:20px;
+}
+ 
+    </style>
+</head>
+<body>
+<div class="item">
+      <div class="form-group">
+        <input type="checkbox" id="remember_me" class="checkBox" name="remember" value="1"> 
+        <label for="remember_me">Remember me <span><i class="fa-solid fa-check"></i></span></label>  
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="terms_and_conditions" class="checkBox" name="terms_and_conditions" value="1"> 
+        <label for="terms_and_conditions">Remember juel <span><i class="fa-solid fa-check"></i></span></label>  
+      </div>
+      
+
+</div>
+      
+      
+      
+</body>
+</html>

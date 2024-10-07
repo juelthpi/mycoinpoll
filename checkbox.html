@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    background-color: #0C131D;
+}
+
+.check {
+    opacity: 0;
+}
+
+label {
+    position: relative;
+    cursor: pointer;
+}
+
+.check + label:before,
+.check:checked + label:after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    cursor: pointer;
+}
+
+.check + label:before {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background: #080E17;
+    background-clip: padding-box;
+    border:4px solid transparent;
+}
+.check + label:before::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(302.95deg, #ac4a4a -6.79%, rgba(102, 7, 7, 0) 100%), 
+                linear-gradient(122.95deg, rgba(155, 25, 25, 0.1) 0%, rgba(94, 65, 221, 0) 106.79%);
+    z-index: -1;
+    border-radius:5px;
+     
+}
+
+
+.check:checked + label:before {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%); /* Gradient on check */
+    border-color: transparent;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.check:checked + label:after {
+    width: 14px;
+    height: 6px;
+    border-width: 0 0 2px 2px;
+    border-style: solid;
+    border-color: #fff;
+    transform: rotate(-45deg) translate(1px, 13px);
+    left: -15px;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="item">
+        <input type="checkbox" checked id="check1" class="check">
+        <label for="check1"></label>
+        <input type="checkbox" id="check2" class="check">
+        <label for="check2"></label>
+        <input type="checkbox" id="check3" class="check">
+        <label for="check3"></label>
+        <input type="checkbox" id="check4" class="check">
+        <label for="check4"></label>
+    </div>
+</body>
+</html>

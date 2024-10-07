@@ -221,6 +221,14 @@
   .breadcrumbs-mobile-padding{
     margin-top: 85px;
   }
+  .launch-thumnail {
+    padding-left:0px;
+    text-align: center;
+  }
+  .launch-thumnail img {
+    width: 100%;
+    max-width: 325px;
+  }
 }
 @media screen and (max-width: 991px) {
   .why-choose-section{
@@ -605,6 +613,12 @@
     .pagination ul {
       gap:3px;
     }
+    .apply-launch-part {
+      padding: 25px;
+    }
+    .apply-launch-part label{
+      font-size:15px;
+     }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
