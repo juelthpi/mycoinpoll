@@ -258,7 +258,9 @@
     row-gap: 15px;
   }
   
- 
+  .pagination-inner li a {
+    min-width: 48px;
+  }
   .token-card-thumnails,.token-card-middle-area {
     margin-right: 0;
     width: 100%;
@@ -316,6 +318,7 @@
   .line {
     height: 1px;
   }
+  
 }
 @media screen and (max-width: 767px) {
   .header-area .container-fluid {
@@ -588,6 +591,19 @@
     }
     .token-rollout-right-side{
       margin-top:230px;
+    }
+    .pagination .subscribe-btn{
+      height: 40px !important;
+      min-width:75px !important;
+      font-size: 12px;
+    }
+    .pagination-inner li a {
+      min-width: 36px;
+      height: 40px;
+      font-size: 12px;
+    }
+    .pagination ul {
+      gap:3px;
     }
 }
 @media screen and (max-width:480px) {
