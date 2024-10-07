@@ -218,6 +218,9 @@
   .token-rollout-right-side {
     margin-left:50px;
   }
+  .breadcrumbs-mobile-padding{
+    margin-top: 85px;
+  }
 }
 @media screen and (max-width: 991px) {
   .why-choose-section{
@@ -571,6 +574,21 @@
       flex-wrap: wrap;
       gap: 20px;
     }
+    .chart-center-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #111822;
+      width: 100%;
+      border-radius:0%;
+      position: absolute;
+      top:-94px;
+      border: 2px solid #217e88;
+      outline:1px solid #040C16;
+    }
+    .token-rollout-right-side{
+      margin-top:230px;
+    }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
@@ -585,11 +603,12 @@
     margin: auto;
     margin-top: 20px;
   }
-  .token-rollout-right-side {
-    display: none !important;
-  }
+ 
   .earn-card-btn-group ul li a.btn4.primary-btn {
     min-width: 302px;
   }
  
 }
+
+
+

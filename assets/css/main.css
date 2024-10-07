@@ -1748,3 +1748,34 @@ text-fill-color: transparent;
   height: 55px;
 }
  
+.breadcrumbs ul li a.active{
+  background: linear-gradient(90deg, rgba(39, 123, 245, 0.8) 0%, rgba(28, 214, 145, 0.8) 100.01%);
+}
+.breadcrumbs ul li a{
+  background: #151D24;
+  font-size: 18px;
+  color: #FFFFFFCC;
+  display: inline-block;
+  text-align: center;
+  min-width:166px;
+  margin-left: -16px;
+  padding:9px;
+  clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0% 100%, 11% 50%, 0% 0%);
+
+}
+.breadcrumbs {
+	margin-left: 16px;
+}
+.breadcrumbs ul{
+  row-gap: 5px;
+}
+.breadcrumbs ul li:first-child a{
+  clip-path: polygon(0% 0%, 86% 0, 100% 50%, 86% 100%, 0% 100%);
+  /* margin-left: 0; */
+}
+.breadcrumbs ul li a:hover{
+  background: linear-gradient(90deg, rgba(39, 123, 245, 0.8) 0%, rgba(28, 214, 145, 0.8) 100.01%);
+}
+.ptb50{
+  padding: 50px 0;
+}
