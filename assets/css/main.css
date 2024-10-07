@@ -1551,6 +1551,39 @@ text-fill-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
 }
+/* .roadmap-cover .roadmap-item-year::before {
+	content: "";
+	left: -137px;
+	position: absolute;
+	top: -82px;
+	background-image: url('../images/bg/shap-right.png');
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+	z-index: -2;
+} */
+.roadmap-cover:nth-child(even) .roadmap-item-year::before {
+	content: "";
+  left: -113px;
+  position: absolute;
+  top: -100px;
+  background-image: url('../images/bg/shap-right.png');
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+.roadmap-cover:nth-child(odd) .roadmap-item-year::before {
+	content: "";
+  right: -119px;
+  position: absolute;
+  top: -114px;
+  background-image: url('../images/bg/shap-left.png');
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
 .roadmap-item-text{
   background-image: url('../images/bg/road-map-item.png');
   background-size: 100% 100%;
@@ -1714,3 +1747,4 @@ text-fill-color: transparent;
   min-width:375px;
   height: 55px;
 }
+ 

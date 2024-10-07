@@ -198,7 +198,7 @@
     margin-left: 0;
     padding-left: 25px;
   }
-  .shap-left,.shap-right{
+  .roadmap-item-year::before{
     display: none;
   }
   .roadmap-item.justify-content-end{
@@ -549,9 +549,10 @@
     min-width: 240px;
   }
   .roadmap-item-year {
-    min-height: 180px;
-    min-width: 180px;
-    max-height: 212px;}
+    min-height: 154px;
+    min-width: 154px;
+    max-height: 212px;
+  }
     .line{
       display: none;
     }
