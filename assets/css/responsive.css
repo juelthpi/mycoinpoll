@@ -1,11 +1,11 @@
  
 @media screen and (min-width:1280px) {
   .navbar-nav {
-    gap:30px;
+    gap:20px;
   }
  
   .token-card-middle-area {
-    margin-right: 96px;
+    margin-right:50px;
   }
   
 }
@@ -32,41 +32,15 @@
   .ido-card-header{
     margin-top: 38px;
   }
-  .slick-arrow {
-    height: 50px;
-    width: 50px;
-  }
   p {
     font-size: 18px;
   }
   .cb-slideshow div,.cb-slideshow{
     width: 400px !important;
   }
-  .primary-btn {
-    min-width: 300px;
-    font-size: 18px;
-    height: 75px;
-  }
-  .btn2{
-    height:85px;
-  }
-  .token-view-more-btn .primary-btn {
-    line-height: 78px;
-  }
-  /* .hero-container {
-    padding-top: 230px;
-    padding-bottom: 0;
-    background-size: cover;
-  } */
   .coin-logo-area ul li {
     width: 26%;
   }
-  /* .coin-logo-section {
-    margin-top: -125px;
-  } */
-  .token-details-btn-group .btn4.primary-btn {
-    min-width:225px
-   }
    .footer-area{
     flex-wrap: wrap;
     justify-content: center !important;
@@ -106,7 +80,7 @@
   }
   .token-card-main-area {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom:50px;
   }
   .frequently-answere .accordion-button {
     padding: 6px 15px !important;
@@ -163,9 +137,6 @@
   .coinpool-hero-rights {
     display: none;
   }
-  /* .hero-container {
-    padding-bottom: 275px;
-  } */
   .hero-container {
     padding-top: 240px;
     background-size: cover;
@@ -183,6 +154,7 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+    left: 0;
   }
   .token-details-right-box{
     margin-top: 60px;
@@ -224,10 +196,6 @@
   .launch-thumnail {
     padding-left:0px;
     text-align: center;
-  }
-  .launch-thumnail img {
-    width: 100%;
-    max-width: 325px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -354,7 +322,6 @@
   }
    .hero-area-text ul{
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
    }
    .hero-area-text h3,.token-card-heading h3,.section-heading h3 {
@@ -368,12 +335,6 @@
   .hero-area-text {
     text-align: center;
   }
-  .primary-btn {
-    min-width: 280px;
-    font-size: 16px;
-    /* height: 65px; */
-    display: flex;
-  }
   .coin-logo-section {
     margin-top: -160px;
   }
@@ -382,9 +343,6 @@
   }
   .coin-logo-area ul {
     gap: 15px;
-  }
-  .btn2 {
-    height:74px;
   }
   .running-token-view-box{
     justify-content: center;
@@ -396,16 +354,24 @@
     margin-top: 30px;
     text-align: center;
   }
-  .btn3 {
-    padding: 12px 25px;
-  }
   .ido-card-header {
     margin-top: 20px;
   }
+  @keyframes diagonalGradientShift {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
   .running-token-view-box,.token-card-main-area,.ido-single-card,.subscribe-bg,.frequently-answere .accordion-item{
     background-image: none;
-    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    /* background: linear-gradient(135deg, #264162 0%, #102e2c 100%); */
     border-radius: 15px;
+    background: linear-gradient(135deg, #1cd69233 0%, #2779f579 100.01%);
+    background-size: 200% 200%;
+    animation: diagonalGradientShift 6s ease infinite alternate;
   }
   .navbar-brand {
     margin-right: 0px;
@@ -533,15 +499,14 @@
   }
   .mobile-box-bg{
     background-image: none;
-    background: linear-gradient(135deg, #264162 0%, #102e2c 100%);
+    /* background: linear-gradient(135deg, #264162 0%, #102e2c 100%); */
     border-radius: 15px;
+    background: linear-gradient(90deg, #1cd69233 0%, #2779f579 100.01%);
+    background-size: 200% 200%;
+    animation: diagonalGradientShift 6s ease infinite alternate;
   }
   .g30{
     gap: 15px;
-  }
-  .ido-card-logo img{
-    width: 80px;
-    height: 80px;
   }
   .running-token-view-box{
     padding: 40px 28px;
@@ -601,9 +566,9 @@
       margin-top:230px;
     }
     .pagination .subscribe-btn{
-      height: 40px !important;
       min-width:75px !important;
       font-size: 12px;
+      padding:12px 1px !important;
     }
     .pagination-inner li a {
       min-width: 36px;
@@ -619,6 +584,12 @@
     .apply-launch-part label{
       font-size:15px;
      }
+     .section-heading.text-center p{
+      max-width:100%;
+    }
+    .primary-btn-group ul {
+      gap:12px;
+    }
 }
 @media screen and (max-width:480px) {
   .coin-logo-area ul li img {
@@ -633,11 +604,6 @@
     margin: auto;
     margin-top: 20px;
   }
- 
-  .earn-card-btn-group ul li a.btn4.primary-btn {
-    min-width: 302px;
-  }
- 
 }
 
 
